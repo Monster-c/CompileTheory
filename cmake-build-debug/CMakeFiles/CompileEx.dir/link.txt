@@ -1,0 +1,3 @@
+"D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CompileEx.dir/objects.a
+D:\Path\MinGW\bin\ar.exe cr CMakeFiles\CompileEx.dir/objects.a @CMakeFiles\CompileEx.dir\objects1.rsp
+D:\Path\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\CompileEx.dir/objects.a -Wl,--no-whole-archive -o CompileEx.exe -Wl,--out-implib,libCompileEx.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CompileEx.dir\linklibs.rsp

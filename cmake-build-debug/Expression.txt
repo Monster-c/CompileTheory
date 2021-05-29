@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+//这是一行注释
+int main()
+{
+printf("Hello world!");
+return 0;
+}
