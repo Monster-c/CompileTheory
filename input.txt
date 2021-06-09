@@ -1,0 +1,11 @@
+#include <cstdio>
+
+// 这是注释
+
+/*
+这是多行注释
+*/
+int main(){
+    printf("Hellowww");
+    return 0;
+}

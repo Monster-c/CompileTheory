@@ -57,10 +57,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -77,7 +77,7 @@ CMAKE_BINARY_DIR = D:\WorkSpace\CLionProjects\CompileEx\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -88,7 +88,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -168,32 +168,59 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-source/Ex2.obj: source/Ex2.cpp.obj
+source/PreProcess.obj: source/PreProcess.cpp.obj
 
-.PHONY : source/Ex2.obj
+.PHONY : source/PreProcess.obj
 
 # target to build an object file
-source/Ex2.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/Ex2.cpp.obj
-.PHONY : source/Ex2.cpp.obj
+source/PreProcess.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/PreProcess.cpp.obj
+.PHONY : source/PreProcess.cpp.obj
 
-source/Ex2.i: source/Ex2.cpp.i
+source/PreProcess.i: source/PreProcess.cpp.i
 
-.PHONY : source/Ex2.i
+.PHONY : source/PreProcess.i
 
 # target to preprocess a source file
-source/Ex2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/Ex2.cpp.i
-.PHONY : source/Ex2.cpp.i
+source/PreProcess.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/PreProcess.cpp.i
+.PHONY : source/PreProcess.cpp.i
 
-source/Ex2.s: source/Ex2.cpp.s
+source/PreProcess.s: source/PreProcess.cpp.s
 
-.PHONY : source/Ex2.s
+.PHONY : source/PreProcess.s
 
 # target to generate assembly for a file
-source/Ex2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/Ex2.cpp.s
-.PHONY : source/Ex2.cpp.s
+source/PreProcess.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/PreProcess.cpp.s
+.PHONY : source/PreProcess.cpp.s
+
+source/natural_cut_word.obj: source/natural_cut_word.cpp.obj
+
+.PHONY : source/natural_cut_word.obj
+
+# target to build an object file
+source/natural_cut_word.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj
+.PHONY : source/natural_cut_word.cpp.obj
+
+source/natural_cut_word.i: source/natural_cut_word.cpp.i
+
+.PHONY : source/natural_cut_word.i
+
+# target to preprocess a source file
+source/natural_cut_word.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.i
+.PHONY : source/natural_cut_word.cpp.i
+
+source/natural_cut_word.s: source/natural_cut_word.cpp.s
+
+.PHONY : source/natural_cut_word.s
+
+# target to generate assembly for a file
+source/natural_cut_word.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.s
+.PHONY : source/natural_cut_word.cpp.s
 
 # Help Target
 help:
@@ -207,9 +234,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... source/Ex2.obj
-	@echo ... source/Ex2.i
-	@echo ... source/Ex2.s
+	@echo ... source/PreProcess.obj
+	@echo ... source/PreProcess.i
+	@echo ... source/PreProcess.s
+	@echo ... source/natural_cut_word.obj
+	@echo ... source/natural_cut_word.i
+	@echo ... source/natural_cut_word.s
 .PHONY : help
 
 

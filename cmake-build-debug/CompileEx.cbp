@@ -82,13 +82,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/Ex2.h">
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/PreProcess.h">
+			<Option target="CompileEx"/>
+		</Unit>
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/natural_cut_word.h">
+			<Option target="CompileEx"/>
+		</Unit>
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/utils.h">
 			<Option target="CompileEx"/>
 		</Unit>
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/main.cpp">
 			<Option target="CompileEx"/>
 		</Unit>
-		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/source/Ex2.cpp">
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/source/PreProcess.cpp">
+			<Option target="CompileEx"/>
+		</Unit>
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/source/natural_cut_word.cpp">
 			<Option target="CompileEx"/>
 		</Unit>
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/CMakeLists.txt">

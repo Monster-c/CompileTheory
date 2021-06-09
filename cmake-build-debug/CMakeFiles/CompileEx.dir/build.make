@@ -52,10 +52,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7142.21\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\Program Files\JetBrains\Toolbox\apps\CLion\ch-0\211.7442.42\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -88,34 +88,49 @@ CMakeFiles/CompileEx.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CompileEx.dir/main.cpp.s"
 	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\WorkSpace\CLionProjects\CompileEx\main.cpp -o CMakeFiles\CompileEx.dir\main.cpp.s
 
-CMakeFiles/CompileEx.dir/source/Ex2.cpp.obj: CMakeFiles/CompileEx.dir/flags.make
-CMakeFiles/CompileEx.dir/source/Ex2.cpp.obj: ../source/Ex2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\WorkSpace\CLionProjects\CompileEx\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CompileEx.dir/source/Ex2.cpp.obj"
-	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CompileEx.dir\source\Ex2.cpp.obj -c D:\WorkSpace\CLionProjects\CompileEx\source\Ex2.cpp
+CMakeFiles/CompileEx.dir/source/PreProcess.cpp.obj: CMakeFiles/CompileEx.dir/flags.make
+CMakeFiles/CompileEx.dir/source/PreProcess.cpp.obj: ../source/PreProcess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\WorkSpace\CLionProjects\CompileEx\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CompileEx.dir/source/PreProcess.cpp.obj"
+	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CompileEx.dir\source\PreProcess.cpp.obj -c D:\WorkSpace\CLionProjects\CompileEx\source\PreProcess.cpp
 
-CMakeFiles/CompileEx.dir/source/Ex2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CompileEx.dir/source/Ex2.cpp.i"
-	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\WorkSpace\CLionProjects\CompileEx\source\Ex2.cpp > CMakeFiles\CompileEx.dir\source\Ex2.cpp.i
+CMakeFiles/CompileEx.dir/source/PreProcess.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CompileEx.dir/source/PreProcess.cpp.i"
+	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\WorkSpace\CLionProjects\CompileEx\source\PreProcess.cpp > CMakeFiles\CompileEx.dir\source\PreProcess.cpp.i
 
-CMakeFiles/CompileEx.dir/source/Ex2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CompileEx.dir/source/Ex2.cpp.s"
-	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\WorkSpace\CLionProjects\CompileEx\source\Ex2.cpp -o CMakeFiles\CompileEx.dir\source\Ex2.cpp.s
+CMakeFiles/CompileEx.dir/source/PreProcess.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CompileEx.dir/source/PreProcess.cpp.s"
+	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\WorkSpace\CLionProjects\CompileEx\source\PreProcess.cpp -o CMakeFiles\CompileEx.dir\source\PreProcess.cpp.s
+
+CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj: CMakeFiles/CompileEx.dir/flags.make
+CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj: ../source/natural_cut_word.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\WorkSpace\CLionProjects\CompileEx\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj"
+	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\CompileEx.dir\source\natural_cut_word.cpp.obj -c D:\WorkSpace\CLionProjects\CompileEx\source\natural_cut_word.cpp
+
+CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.i"
+	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\WorkSpace\CLionProjects\CompileEx\source\natural_cut_word.cpp > CMakeFiles\CompileEx.dir\source\natural_cut_word.cpp.i
+
+CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.s"
+	D:\Path\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\WorkSpace\CLionProjects\CompileEx\source\natural_cut_word.cpp -o CMakeFiles\CompileEx.dir\source\natural_cut_word.cpp.s
 
 # Object files for target CompileEx
 CompileEx_OBJECTS = \
 "CMakeFiles/CompileEx.dir/main.cpp.obj" \
-"CMakeFiles/CompileEx.dir/source/Ex2.cpp.obj"
+"CMakeFiles/CompileEx.dir/source/PreProcess.cpp.obj" \
+"CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj"
 
 # External object files for target CompileEx
 CompileEx_EXTERNAL_OBJECTS =
 
 CompileEx.exe: CMakeFiles/CompileEx.dir/main.cpp.obj
-CompileEx.exe: CMakeFiles/CompileEx.dir/source/Ex2.cpp.obj
+CompileEx.exe: CMakeFiles/CompileEx.dir/source/PreProcess.cpp.obj
+CompileEx.exe: CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj
 CompileEx.exe: CMakeFiles/CompileEx.dir/build.make
 CompileEx.exe: CMakeFiles/CompileEx.dir/linklibs.rsp
 CompileEx.exe: CMakeFiles/CompileEx.dir/objects1.rsp
 CompileEx.exe: CMakeFiles/CompileEx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\WorkSpace\CLionProjects\CompileEx\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CompileEx.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\WorkSpace\CLionProjects\CompileEx\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CompileEx.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CompileEx.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

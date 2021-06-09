@@ -1,0 +1,1 @@
+#include<cstdio>intmain(){printf("Hellowww");return0;
