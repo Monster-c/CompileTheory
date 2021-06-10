@@ -8,7 +8,7 @@ add_executable(CompileEx main.cpp
         include/natural_cut_word.h
         source/PreProcess.cpp
         source/natural_cut_word.cpp
-        include/utils.h)
+        include/utils.h include/RecursionDrop.h source/RecursionDrop.cpp)
 #        source/Reg2NFA.cpp
 #        include/Reg2NFA.h
 #        source/person_wolf_sheep_vegetable.cpp

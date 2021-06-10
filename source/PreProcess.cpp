@@ -14,9 +14,8 @@ string read_file(const string &input_file) {
         infile.get(data[i++]);
     }
     infile.close();
-    // TODO:Review
-    data[i++] = '\0';
 
+    data[i - 1] = '\0';
     return data;
 }
 
@@ -60,8 +59,6 @@ string filter(string data) {
             res += data[i];
         }
     }
-    //TODO:这里有一个小bug 去除不掉末尾的 ‘\0’,只好手动去除，后面有机会再调试一下
-    res.pop_back();
 
     return res;
 }

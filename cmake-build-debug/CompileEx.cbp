@@ -85,6 +85,9 @@
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/PreProcess.h">
 			<Option target="CompileEx"/>
 		</Unit>
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/RecursionDrop.h">
+			<Option target="CompileEx"/>
+		</Unit>
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/natural_cut_word.h">
 			<Option target="CompileEx"/>
 		</Unit>
@@ -95,6 +98,9 @@
 			<Option target="CompileEx"/>
 		</Unit>
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/source/PreProcess.cpp">
+			<Option target="CompileEx"/>
+		</Unit>
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/source/RecursionDrop.cpp">
 			<Option target="CompileEx"/>
 		</Unit>
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/source/natural_cut_word.cpp">

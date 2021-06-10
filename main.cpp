@@ -15,11 +15,11 @@ int main() {
 //        Reg2NFA();
 
     string proc_code = read_file("../input.txt");
-//    cout << "proc_code:" << proc_code << endl;
+    cout << "proc_code:" << proc_code << endl;
 
-    string pre_code = filter(proc_code);
+//    string pre_code = filter(proc_code);
 //    cout << "输出预处理过的程序" << pre_code << endl;
 
-    word_anlysis(pre_code, "Ex2.txt");
+//    word_anlysis(pre_code, "Ex2.txt");
     return 0;
 }

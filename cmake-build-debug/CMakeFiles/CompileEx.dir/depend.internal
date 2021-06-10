@@ -12,6 +12,10 @@ CMakeFiles/CompileEx.dir/source/PreProcess.cpp.obj
  D:/WorkSpace/CLionProjects/CompileEx/include/PreProcess.h
  D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
  D:/WorkSpace/CLionProjects/CompileEx/source/PreProcess.cpp
+CMakeFiles/CompileEx.dir/source/RecursionDrop.cpp.obj
+ D:/WorkSpace/CLionProjects/CompileEx/include/RecursionDrop.h
+ D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
+ D:/WorkSpace/CLionProjects/CompileEx/source/RecursionDrop.cpp
 CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj
  D:/WorkSpace/CLionProjects/CompileEx/include/PreProcess.h
  D:/WorkSpace/CLionProjects/CompileEx/include/natural_cut_word.h
