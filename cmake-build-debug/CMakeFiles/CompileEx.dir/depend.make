@@ -4,6 +4,7 @@
 CMakeFiles/CompileEx.dir/main.cpp.obj: ../include/PreProcess.h
 CMakeFiles/CompileEx.dir/main.cpp.obj: ../include/Reg2NFA.h
 CMakeFiles/CompileEx.dir/main.cpp.obj: ../include/natural_cut_word.h
+CMakeFiles/CompileEx.dir/main.cpp.obj: ../include/operator_prior.h
 CMakeFiles/CompileEx.dir/main.cpp.obj: ../include/person_wolf_sheep_vegetable.h
 CMakeFiles/CompileEx.dir/main.cpp.obj: ../include/utils.h
 CMakeFiles/CompileEx.dir/main.cpp.obj: ../main.cpp
@@ -20,4 +21,8 @@ CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj: ../include/PreProcess.
 CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj: ../include/natural_cut_word.h
 CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj: ../include/utils.h
 CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj: ../source/natural_cut_word.cpp
+
+CMakeFiles/CompileEx.dir/source/operator_prior.cpp.obj: ../include/operator_prior.h
+CMakeFiles/CompileEx.dir/source/operator_prior.cpp.obj: ../include/utils.h
+CMakeFiles/CompileEx.dir/source/operator_prior.cpp.obj: ../source/operator_prior.cpp
 

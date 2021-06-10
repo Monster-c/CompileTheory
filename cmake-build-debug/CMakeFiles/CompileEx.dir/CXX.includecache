@@ -10,6 +10,20 @@ D:/WorkSpace/CLionProjects/CompileEx/include/PreProcess.h
 utils.h
 D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
 
+D:/WorkSpace/CLionProjects/CompileEx/include/Reg2NFA.h
+
+D:/WorkSpace/CLionProjects/CompileEx/include/natural_cut_word.h
+utils.h
+D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
+../include/PreProcess.h
+D:/WorkSpace/CLionProjects/CompileEx/include/PreProcess.h
+
+D:/WorkSpace/CLionProjects/CompileEx/include/operator_prior.h
+./utils.h
+D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
+
+D:/WorkSpace/CLionProjects/CompileEx/include/person_wolf_sheep_vegetable.h
+
 D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
 iostream
 -
@@ -33,8 +47,28 @@ cstdlib
 -
 malloc.h
 -
+vector
+-
+map
+-
+set
+-
 
-D:/WorkSpace/CLionProjects/CompileEx/source/PreProcess.cpp
-../include/PreProcess.h
+D:/WorkSpace/CLionProjects/CompileEx/main.cpp
+./include/PreProcess.h
 D:/WorkSpace/CLionProjects/CompileEx/include/PreProcess.h
+./include/Reg2NFA.h
+D:/WorkSpace/CLionProjects/CompileEx/include/Reg2NFA.h
+./include/utils.h
+D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
+./include/person_wolf_sheep_vegetable.h
+D:/WorkSpace/CLionProjects/CompileEx/include/person_wolf_sheep_vegetable.h
+./include/natural_cut_word.h
+D:/WorkSpace/CLionProjects/CompileEx/include/natural_cut_word.h
+./include/operator_prior.h
+D:/WorkSpace/CLionProjects/CompileEx/include/operator_prior.h
+
+D:/WorkSpace/CLionProjects/CompileEx/source/operator_prior.cpp
+../include/operator_prior.h
+D:/WorkSpace/CLionProjects/CompileEx/include/operator_prior.h
 

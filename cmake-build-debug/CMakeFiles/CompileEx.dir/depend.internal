@@ -5,6 +5,7 @@ CMakeFiles/CompileEx.dir/main.cpp.obj
  D:/WorkSpace/CLionProjects/CompileEx/include/PreProcess.h
  D:/WorkSpace/CLionProjects/CompileEx/include/Reg2NFA.h
  D:/WorkSpace/CLionProjects/CompileEx/include/natural_cut_word.h
+ D:/WorkSpace/CLionProjects/CompileEx/include/operator_prior.h
  D:/WorkSpace/CLionProjects/CompileEx/include/person_wolf_sheep_vegetable.h
  D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
  D:/WorkSpace/CLionProjects/CompileEx/main.cpp
@@ -21,3 +22,7 @@ CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj
  D:/WorkSpace/CLionProjects/CompileEx/include/natural_cut_word.h
  D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
  D:/WorkSpace/CLionProjects/CompileEx/source/natural_cut_word.cpp
+CMakeFiles/CompileEx.dir/source/operator_prior.cpp.obj
+ D:/WorkSpace/CLionProjects/CompileEx/include/operator_prior.h
+ D:/WorkSpace/CLionProjects/CompileEx/include/utils.h
+ D:/WorkSpace/CLionProjects/CompileEx/source/operator_prior.cpp

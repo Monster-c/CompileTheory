@@ -91,6 +91,9 @@
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/natural_cut_word.h">
 			<Option target="CompileEx"/>
 		</Unit>
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/operator_prior.h">
+			<Option target="CompileEx"/>
+		</Unit>
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/include/utils.h">
 			<Option target="CompileEx"/>
 		</Unit>
@@ -104,6 +107,9 @@
 			<Option target="CompileEx"/>
 		</Unit>
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/source/natural_cut_word.cpp">
+			<Option target="CompileEx"/>
+		</Unit>
+		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/source/operator_prior.cpp">
 			<Option target="CompileEx"/>
 		</Unit>
 		<Unit filename="D:/WorkSpace/CLionProjects/CompileEx/CMakeLists.txt">

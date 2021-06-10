@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "D:/WorkSpace/CLionProjects/CompileEx/source/PreProcess.cpp" "D:/WorkSpace/CLionProjects/CompileEx/cmake-build-debug/CMakeFiles/CompileEx.dir/source/PreProcess.cpp.obj"
   "D:/WorkSpace/CLionProjects/CompileEx/source/RecursionDrop.cpp" "D:/WorkSpace/CLionProjects/CompileEx/cmake-build-debug/CMakeFiles/CompileEx.dir/source/RecursionDrop.cpp.obj"
   "D:/WorkSpace/CLionProjects/CompileEx/source/natural_cut_word.cpp" "D:/WorkSpace/CLionProjects/CompileEx/cmake-build-debug/CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.obj"
+  "D:/WorkSpace/CLionProjects/CompileEx/source/operator_prior.cpp" "D:/WorkSpace/CLionProjects/CompileEx/cmake-build-debug/CMakeFiles/CompileEx.dir/source/operator_prior.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

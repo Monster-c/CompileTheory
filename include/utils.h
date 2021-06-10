@@ -16,6 +16,9 @@
 #include<stack>
 #include <cstdlib>
 #include <malloc.h>
+#include <vector>
+#include <map>
+#include <set>
 
 // 定义数组最大长度
 #define MAX_LENGTH 999

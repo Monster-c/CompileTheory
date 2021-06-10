@@ -249,6 +249,33 @@ source/natural_cut_word.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/natural_cut_word.cpp.s
 .PHONY : source/natural_cut_word.cpp.s
 
+source/operator_prior.obj: source/operator_prior.cpp.obj
+
+.PHONY : source/operator_prior.obj
+
+# target to build an object file
+source/operator_prior.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/operator_prior.cpp.obj
+.PHONY : source/operator_prior.cpp.obj
+
+source/operator_prior.i: source/operator_prior.cpp.i
+
+.PHONY : source/operator_prior.i
+
+# target to preprocess a source file
+source/operator_prior.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/operator_prior.cpp.i
+.PHONY : source/operator_prior.cpp.i
+
+source/operator_prior.s: source/operator_prior.cpp.s
+
+.PHONY : source/operator_prior.s
+
+# target to generate assembly for a file
+source/operator_prior.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CompileEx.dir\build.make CMakeFiles/CompileEx.dir/source/operator_prior.cpp.s
+.PHONY : source/operator_prior.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -270,6 +297,9 @@ help:
 	@echo ... source/natural_cut_word.obj
 	@echo ... source/natural_cut_word.i
 	@echo ... source/natural_cut_word.s
+	@echo ... source/operator_prior.obj
+	@echo ... source/operator_prior.i
+	@echo ... source/operator_prior.s
 .PHONY : help
 
 
